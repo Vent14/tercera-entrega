@@ -1,0 +1,202 @@
+@import "./variables";
+@import "./button";
+@import "./body";
+@import "./header";
+@import "./footer";
+@import "./laboratorios";
+
+.color-acento{
+    color:palevioletred
+}
+
+@mixin sucursales{
+    margin: 0;
+    padding-top: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 55vh;
+    color:rgb(243, 241, 241);
+
+}
+
+section{
+    margin: 0;
+    padding: 25px 50px;
+}
+
+section{
+    @include sucursales();
+
+    p{
+        
+        background-color: $secundary-color;
+        color: black;
+        text-align: center;
+    }
+    div.iztp{
+        background-image: url(/img/lamar6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center,center;
+        height: 95vh
+
+    }
+    
+}
+
+section{
+    
+    @include sucursales();
+    p{
+        
+        background-color: $secundary-color;
+        color: black;
+        text-align: center;
+    }
+    div.atla{
+        background-image: url(/img/lamar7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center,center;
+        height: 95vh;
+    }
+    
+}
+
+#laboratorios{
+    color: rgb(35, 150, 232);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+
+}
+
+#laboratorios .container{
+    background-image: url(/img/lamar3.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 12px;
+}
+#laboratorios li{
+    margin: 15px 0px;
+    font-size: 4.5em;
+    font-weight: bold;
+
+}
+
+#listo{
+    background-image: url(/img/lamar8.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: rgb(12, 12, 12);
+    height: 50vh;
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+#listo button{
+    font-size: 5vw;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 85vh;
+    color: rgb(226, 26, 183);
+    background-image: url("/img/lamar1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#somos-lamar{
+    color: black;
+    
+
+}
+
+div#img-somoslamar{
+    img{
+        margin-top: 50px;
+        padding: 50px;
+    }
+}
+
+#somos-lamar .container{
+text-align: center;
+padding: 200px 12px;
+}
+
+#nuestras-sucursales{
+    background-color: rgba(8, 7, 7, 0.877);
+    color:white;
+    text-align: center;
+}
+
+#nuestras-sucursales .container{
+    padding: 100px 20px;
+}
+#nuestras-sucursales h2{
+    margin-top: 0;
+    font-size: 3.5em;
+}
+
+#nuestras-sucursales p{
+    display: none;
+}
+
+#nuestras-sucursales .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 18px;
+    border-radius: 15px;
+
+}
+
+.carta:first-child{
+background-image:url(/img/lamar6.jpg) ;
+}
+.carta:nth-child(2){
+    background-image: url(/img/lamar7.jpg);
+
+}
+
+section.izt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+section.atla{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content:space-evenly;
+    
+}
+
+div.mapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

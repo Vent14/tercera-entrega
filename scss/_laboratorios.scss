@@ -1,0 +1,40 @@
+section#laboratorios{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    div{
+        margin-top: 40px;
+        background-image: url(/img/lamar3.jpg);
+        background-position: center center;
+        background-size: cover;
+        text-align: center;
+        min-height: 50vh;
+        li{
+            padding: 10px 900px;
+            color: rgb(35, 150, 232);
+            margin: 15px 0px;
+            font-size: 4.5em;
+            font-weight: bold;
+        }
+    }
+}
+
+section#listo{
+    background-image: url(/img/lamar8.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    height: 40vh;
+    h2{
+            color: rgb(12, 12, 12);
+            font-size: 5vw;
+            button{
+                font-size: 2vw;
+            }
+
+    }
+}

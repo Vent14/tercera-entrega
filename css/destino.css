@@ -1,0 +1,343 @@
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0% 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background-color: palevioletred;
+}
+
+button:hover {
+  background-color: rgb(191, 100, 131);
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+body h1 {
+  font-size: 3.5em;
+}
+body h1 h2 {
+  font-size: 2.5em;
+}
+body h1 h2 h3 {
+  font-size: 1.5em;
+}
+body h1 h2 h3 p {
+  font-size: 1;
+}
+body h1 h2 h3 p ul {
+  list-style: none;
+}
+body h1 h2 h3 p ul li {
+  font-size: 1.25em;
+}
+body h1 h2 h3 p ul li a {
+  list-style: none;
+}
+
+header {
+  background-color: rgb(245, 245, 245);
+}
+header .color-acento {
+  color: rgb(249, 144, 161);
+}
+
+header .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(27, 25, 25);
+  font-size: 1.65em;
+}
+
+a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+a:hover {
+  color: rgb(249, 144, 161);
+}
+
+header .container {
+  max-height: 1400px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 720px) {
+  /*header deskt*/
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 30px;
+  }
+}
+footer {
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+  padding: 20px;
+}
+footer nav {
+  text-align: center;
+  font-weight: bold;
+  align-items: center center;
+}
+footer nav a {
+  text-decoration: none;
+  color: black;
+}
+footer nav a div .container {
+  text-align: center;
+  align-items: center center;
+}
+
+footer .container {
+  text-align: center;
+  align-items: center center;
+}
+
+section#laboratorios {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+}
+section#laboratorios div {
+  margin-top: 40px;
+  background-image: url(/img/lamar3.jpg);
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  min-height: 50vh;
+}
+section#laboratorios div li {
+  padding: 10px 900px;
+  color: rgb(35, 150, 232);
+  margin: 15px 0px;
+  font-size: 4.5em;
+  font-weight: bold;
+}
+
+section#listo {
+  background-image: url(/img/lamar8.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  height: 40vh;
+}
+section#listo h2 {
+  color: rgb(12, 12, 12);
+  font-size: 5vw;
+}
+section#listo h2 button {
+  font-size: 2vw;
+}
+
+.color-acento {
+  color: palevioletred;
+}
+
+section {
+  margin: 0;
+  padding: 25px 50px;
+}
+
+section {
+  margin: 0;
+  padding-top: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 55vh;
+  color: rgb(243, 241, 241);
+}
+section p {
+  background-color: rgb(245, 245, 245);
+  color: black;
+  text-align: center;
+}
+section div.iztp {
+  background-image: url(/img/lamar6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  height: 95vh;
+}
+
+section {
+  margin: 0;
+  padding-top: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 55vh;
+  color: rgb(243, 241, 241);
+}
+section p {
+  background-color: rgb(245, 245, 245);
+  color: black;
+  text-align: center;
+}
+section div.atla {
+  background-image: url(/img/lamar7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  height: 95vh;
+}
+
+#laboratorios {
+  color: rgb(35, 150, 232);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+}
+
+#laboratorios .container {
+  background-image: url(/img/lamar3.jpg);
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#laboratorios li {
+  margin: 15px 0px;
+  font-size: 4.5em;
+  font-weight: bold;
+}
+
+#listo {
+  background-image: url(/img/lamar8.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: rgb(12, 12, 12);
+  height: 50vh;
+}
+
+#final h2 {
+  font-size: 9vw;
+}
+
+#listo button {
+  font-size: 5vw;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 85vh;
+  color: rgb(226, 26, 183);
+  background-image: url("/img/lamar1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#somos-lamar {
+  color: black;
+}
+
+div#img-somoslamar img {
+  margin-top: 50px;
+  padding: 50px;
+}
+
+#somos-lamar .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+
+#nuestras-sucursales {
+  background-color: rgba(8, 7, 7, 0.877);
+  color: white;
+  text-align: center;
+}
+
+#nuestras-sucursales .container {
+  padding: 100px 20px;
+}
+
+#nuestras-sucursales h2 {
+  margin-top: 0;
+  font-size: 3.5em;
+}
+
+#nuestras-sucursales p {
+  display: none;
+}
+
+#nuestras-sucursales .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 18px;
+  border-radius: 15px;
+}
+
+.carta:first-child {
+  background-image: url(/img/lamar6.jpg);
+}
+
+.carta:nth-child(2) {
+  background-image: url(/img/lamar7.jpg);
+}
+
+section.izt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+section.atla {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+div.mapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=destino.css.map */
